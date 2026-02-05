@@ -40,10 +40,13 @@ nav{
   height:22px;
   border-radius:50%; /* opsional, kalau mau bulat */
   object-fit:cover;
+  display:block;
 }
 
 .logo-text{
   line-height:1;
+  display:flex;
+  align-items:center;
 }
 
 .menu a{
