@@ -111,17 +111,23 @@ header p{
 }
 
 .article-author{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    margin-bottom:10px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:8px;
 }
 
-.meta-icon{
-    width:36px;
-    height:36px;
-    border-radius:50%;
-    object-fit:cover;
+.author-avatar{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:#0f172a;
+  color:#38bdf8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+  font-size:14px;
 }
 
 /* FOOTER */
