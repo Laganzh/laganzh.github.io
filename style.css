@@ -166,6 +166,11 @@ header p{
   height:36px;
 }
 
+.author-name{
+  font-style: italic;
+  color: #3b82f6;
+}
+
 /* FOOTER */
 
 footer{
