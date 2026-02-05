@@ -27,9 +27,23 @@ nav{
 }
 
 .logo{
-    font-weight:700;
-    font-size:22px;
-    letter-spacing:1px;
+  display:flex;
+  align-items:center;
+  gap:4px;          
+  font-weight:700;
+  font-size:22px;
+  letter-spacing:0.5px;
+}
+
+.logo-icon{
+  width:22px;
+  height:22px;
+  border-radius:50%; /* opsional, kalau mau bulat */
+  object-fit:cover;
+}
+
+.logo-text{
+  line-height:1;
 }
 
 .menu a{
