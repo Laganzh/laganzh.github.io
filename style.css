@@ -113,16 +113,15 @@ header p{
 .article-author{
     display:flex;
     align-items:center;
-    gap:8px;
-    color:#94a3b8;
-    font-size:14px;
-    margin-top:6px;
+    gap:10px;
+    margin-bottom:10px;
 }
 
 .meta-icon{
-    width:18px;
-    height:18px;
-    border-radius:4px;
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    object-fit:cover;
 }
 
 /* FOOTER */
