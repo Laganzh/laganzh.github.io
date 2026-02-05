@@ -110,6 +110,22 @@ header p{
     color:#64748b;
 }
 
+.article-meta,
+.article-author{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:#94a3b8;
+    font-size:14px;
+    margin-top:6px;
+}
+
+.meta-icon{
+    width:18px;
+    height:18px;
+    border-radius:4px;
+}
+
 /* FOOTER */
 
 footer{
