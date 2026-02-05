@@ -72,6 +72,11 @@ header p{
     border-color:#3b82f6;
 }
 
+.card-link{
+    text-decoration:none;
+    color:inherit;
+}
+
 /* TAG */
 
 .tag{
