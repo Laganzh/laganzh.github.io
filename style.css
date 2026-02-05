@@ -117,11 +117,19 @@ header p{
   margin-bottom:8px;
 }
 
+.post-author{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:12px 0 8px;
+}
+
 .author-avatar{
   width:36px;
   height:36px;
   border-radius:50%;
   object-fit:cover;
+  flex-shrink:0;
 }
 
 /* FOOTER */
