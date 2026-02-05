@@ -124,7 +124,13 @@ header p{
 
 .article-meta{
   color:#64748b;
-  margin-bottom:40px;
+  margin-bottom:20px;
+}
+
+.article-content img{
+  width:100%;
+  border-radius:14px;
+  margin:30px 0;
 }
 
 .article-container p{
@@ -138,17 +144,12 @@ header p{
   margin-bottom:10px;
 }
 
-.article-container img{
-  width:100%;
-  border-radius:14px;
-  margin:30px 0;
-}
-
 /* AUTHOR */
+
 .post-author{
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:12px;
   margin:12px 0 6px;
 }
 
@@ -158,6 +159,11 @@ header p{
   border-radius:50%;
   object-fit:cover;
   flex-shrink:0;
+}
+
+.post-author img{
+  width:36px;
+  height:36px;
 }
 
 /* FOOTER */
