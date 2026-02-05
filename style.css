@@ -2,61 +2,125 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: system-ui, sans-serif;
 }
 
 body{
-    background:#0d1117;
-    color:#e6edf3;
-    line-height:1.7;
-    max-width:800px;
+    font-family:'Inter', sans-serif;
+    background:#0f172a;
+    color:#e5e7eb;
+    max-width:900px;
     margin:auto;
-    padding:40px 20px;
+    padding:30px 20px;
 }
 
-/* Header */
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:80px;
+}
+
+.logo{
+    font-weight:700;
+    font-size:22px;
+    letter-spacing:1px;
+}
+
+.menu a{
+    color:#94a3b8;
+    text-decoration:none;
+    margin-left:25px;
+    transition:0.25s;
+}
+
+.menu a:hover{
+    color:#ffffff;
+}
+
+/* HERO */
 
 header{
-    margin-bottom:60px;
+    margin-bottom:70px;
 }
 
 header h1{
-    font-size:42px;
-}
-
-header p{
-    color:#8b949e;
-}
-
-/* Posts */
-
-.post{
-    padding:25px;
-    border:1px solid #30363d;
-    border-radius:12px;
-    margin-bottom:25px;
-    transition:0.3s;
-}
-
-.post:hover{
-    border-color:#58a6ff;
-    transform:translateY(-3px);
-}
-
-.post h2{
+    font-size:44px;
     margin-bottom:10px;
 }
 
-.date{
-    font-size:14px;
-    color:#8b949e;
+header p{
+    color:#94a3b8;
+    font-size:18px;
 }
 
-/* Footer */
+/* CARDS */
+
+.card{
+    background:#111827;
+    padding:28px;
+    border-radius:16px;
+    margin-bottom:25px;
+    border:1px solid transparent;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    border-color:#3b82f6;
+}
+
+/* TAG */
+
+.tag{
+    font-size:12px;
+    color:#60a5fa;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+/* TITLE */
+
+.card h2{
+    margin:10px 0;
+}
+
+/* TEXT */
+
+.card p{
+    color:#cbd5e1;
+}
+
+/* META */
+
+.meta{
+    margin-top:15px;
+    font-size:14px;
+    color:#64748b;
+}
+
+/* FOOTER */
 
 footer{
-    margin-top:60px;
     text-align:center;
-    color:#8b949e;
+    margin-top:80px;
+    color:#64748b;
     font-size:14px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:32px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
 }
